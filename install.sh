@@ -1,13 +1,5 @@
 #!/bin/bash -e
 
-#sudo apt-get clean
-#sudo mv /var/lib/apt/lists/* /tmp
-#sudo mkdir -p /var/lib/apt/lists/partial
-#sudo apt-get clean
-#sudo apt-get update
-
-#echo '===== Installing libgmp3-dev package ====='
-#sudo apt-get install libgmp3-dev
 sudo yum update
 
 echo "================= Updating global rvm packages ==================="
@@ -24,7 +16,4 @@ do
   $file
 done
 
-#echo "================= Cleaning package lists ==================="
-#apt-get clean
-#apt-get autoclean
-#apt-get autoremove
+
